@@ -1,3 +1,4 @@
-library 'jenkins-build'
-
-deployPlugin()
+node{
+    stage("build")
+    sh "gradle clean build"
+}

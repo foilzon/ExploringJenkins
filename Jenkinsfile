@@ -1,4 +1,4 @@
 node{
     stage("build")
-    sh "./gradlew clean build"
+    sh "gradle build"
 }
